@@ -2,7 +2,7 @@
 %heterogeneity parameter (0<=beta<=1):
 %beta=0 for homogenous lung
 %beta=1 for no ventilation/perfusion correlation
-beta=1 % Changed in values for Task 8 and Task 9
+beta=0.5 % Changed in values for Task 8 and Task 9
 %
 %number of iterations used in bisection:
 maxcount=20
@@ -20,7 +20,7 @@ cI=cref % Commented out to use a range of cI in Task 5. Uncommented in Task 6.
 %
 %blood oxygen concentration
 %at full hemoglobin saturation: 
-%cstar=cref % Formula changed in Task 7. Commented out in Task 9.
+cstar=0.75*cref % Formula changed in Task 7 and 10. Commented out in Task 9.
 %cstar=4*(concentration of hemoglobin 
 %in blood expressed in moles/liter)
 %
@@ -37,7 +37,7 @@ RT=760*22.4*(310/273)
 %
 %oxygen partial pressure 
 %in the inspired air (mmHg):
-PI=RT*cI % Commented out in Task 6.
+%PI=RT*cI % Commented out in Task 6 and Task 10.
 %
 %oxygen concentration
 %in blood exposed directly to inspired air:
