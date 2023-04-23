@@ -49,7 +49,7 @@ global Pstar cstar n maxcount M Q camax RT cI;
 % ylabel('Concentration of Oxygen')
 % legend('cAbar', 'cabar', 'cv')
 
-% Task 6 and Task 7
+% Task 6, Task 7, Task 8
 PIRange = linspace(152,0,11);
 PAbarRange = zeros(1,length(PIRange)); % Mean alveolar partial pressure of oxygen
 PabarRange = zeros(1,length(PIRange)); % Mean arterial partial pressure of oxygen
